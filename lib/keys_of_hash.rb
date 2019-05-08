@@ -6,7 +6,6 @@ class Hash
       self.each do |k,v|
       if v == x
         array << k
-        binding.pry
       end
       end
     end
